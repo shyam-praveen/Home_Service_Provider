@@ -1,15 +1,13 @@
-# Final Year Project
+# Mini Project (6th Sem)
 
 ## Project Overview
-The **Home Service Provider** project refers to the facilities-based carrier or reseller with whom the customer contracts for the provision of mobile telecommunications services. Users can create an account and log in. They can use our app's chart visualisation to find the best services near them or around the world, as well as different types of categories. 
-
-## [Live](https://home-service.onrender.com/) demo
+The **Home Service Provider** is a website in which service provider registers in the app after validation. Clients can login to website and check the service providers for their problem present in their location, they can check their details and book them for service. They can see reviews and give review about a service. There is also a chart to visualize all the services available.
 
 #### Technology stack
-- Mongodb
-- Express
-- React
-- Nodejs
+- React - for Frontend
+- Express - for Backend
+- NodeJs - for Backend
+- MongoDB - Database
 
 #### Other library and modules
  ##### Frontend
@@ -27,20 +25,3 @@ The **Home Service Provider** project refers to the facilities-based carrier or 
 ![](https://img.shields.io/badge/Middleware-mongoose-pink)
 ![](https://img.shields.io/badge/Middleware-cors-pink)
 ![](https://img.shields.io/badge/server-nodemon-orange)
-
-### Getting start
-- #### Installation
-    using `npm install` or `yarn install` or `npm run installtion`
-
-- #### Start project
-    Use `npm start` or `yarn start` <br/>
-    Runs the app in the development mode.<br />
-    Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
-    
-- #### Start frontend
-    Use `npm run server` or `yarn run server` <br/>
-    Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
-    
-- #### Start backend
-    Use `npm run client` or `yarn run client` <br/>
-    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
