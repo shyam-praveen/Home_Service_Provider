@@ -60,10 +60,10 @@ function SignIn() {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>HandyMan</h1>
         </div>
-        <h2 className='welcomeBack'>Welcome back</h2>
-        <p className='loginIntoAccount'>Enter new password for </p>
+        <h2 className='welcomeBack'>Welcome To HandyMan</h2>
+        <p className='loginIntoAccount'>Enter The world of Digital Home Service</p>
         <div>
           <Form form={form} layout='vertical'>
             <Form.Item label='Password' name='password'>
@@ -94,7 +94,7 @@ function SignIn() {
           </Form>
         </div>
       </div>
-      <div className='signin-image-div' />
+      {/* <div className='signin-image-div' /> */}
     </div>
   );
 }

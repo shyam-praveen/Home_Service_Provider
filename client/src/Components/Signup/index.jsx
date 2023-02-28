@@ -67,17 +67,17 @@ function SignUp() {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>HandyMan</h1>
         </div>
-        <h2 className='welcomeBack'>Welcome to HomeServices</h2>
-        <p className='loginIntoAccount'>Please register your account</p>
+        <h2 className='welcomeBack'>Welcome to HandyMan</h2>
+        <p className='loginIntoAccount'>Enter The world of Digital Home Service</p>
         <div>
           <Form form={form} layout='vertical'>
             <Form.Item label='Username' name='name'>
-              <Input placeholder='john doe' />
+              <Input placeholder='Nithin' />
             </Form.Item>
             <Form.Item label='Email' name='email'>
-              <Input placeholder='johndoe@gmail.com' />
+              <Input placeholder='@iiitl.ac.in' />
             </Form.Item>
             <Form.Item label='Password' name='password'>
               <Input.Password
@@ -121,7 +121,7 @@ function SignUp() {
                 style={{
                   width: '100%',
                   height: '2.5rem',
-                  backgroundColor: 'rgb(0, 132, 137)',
+                  backgroundColor: 'rgb(83 188 66)',
                   borderColor: 'rgb(0, 132, 137)',
                 }}
                 loading={state.loader}
@@ -131,10 +131,10 @@ function SignUp() {
               </Button>
             </Form.Item>
           </Form>
-          <Divider>Or Register Up With</Divider>
+          <Divider> </Divider>
           <div
             style={{
-              display: 'grid',
+              display: 'none',
               gridTemplateColumns: '1fr 1fr',
               columnGap: '1rem',
               rowGap: '1rem',
@@ -161,7 +161,7 @@ function SignUp() {
           >
             Already Have an Account!
             <Link
-              style={{ color: 'rgb(0, 132, 137)', marginLeft: '0.5rem' }}
+              style={{ color: 'rgb(132, 132, 137)', marginLeft: '0.5rem' }}
               to='/signin'
             >
               Login
@@ -169,7 +169,7 @@ function SignUp() {
           </p>
         </div>
       </div>
-      <div className='signin-image-div' />
+      {/* <div className='signin-image-div' /> */}
     </div>
   );
 }

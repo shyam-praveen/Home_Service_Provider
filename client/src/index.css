@@ -11,9 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .logo-svg {
-  max-width: 100px;
+  max-width: 195px;
 }
+
 #components-layout-demo-side .logo {
   height: 32px;
   margin: 16px;
@@ -23,14 +25,17 @@ code {
 .site-layout .site-layout-background {
   background: #fff;
 }
+
 .site-layout-background {
   /* height: 100%; */
 }
+
 .text-dark {
   color: black;
   font-weight: bold;
   margin-right: 1.5rem;
 }
+
 .ant-card {
   border-radius: 5px !important;
   background-color: white;
@@ -39,9 +44,11 @@ code {
   overflow: hidden;
   word-break: break-word;
 }
+
 .customRow {
   margin: 1rem 0;
 }
+
 .comingsoon {
   height: 100%;
   width: 100%;
@@ -49,29 +56,50 @@ code {
   justify-content: center;
   align-items: center;
   font-size: 52px;
-  background: -webkit-linear-gradient(
-    #1890ff,
-    #661a73,
-    rgb(239, 31, 38),
-    #a2a275
-  );
+  background: -webkit-linear-gradient(#1890ff,
+      #661a73,
+      rgb(239, 31, 38),
+      #a2a275);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.signin::before {
+
+  background: url("../public/images/myLogin.jpg") no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+
+
 .signin {
+  /* background: url("images/login-page-2.jpg") center center; */
   display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
   -webkit-box-align: center;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
 }
 
 .signin-form {
   width: 40%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+
   padding: 2.5rem 5.5rem 0rem 5.5rem;
   /* padding-top: 4rem; */
 }
+
 .signin-image-div {
-  background: url("images/login-page-2.jpg");
+  /* background: url("images/login-page-2.jpg"); */
   background-position: center center;
   height: 100vh;
   background-size: cover;
@@ -85,16 +113,21 @@ code {
   /* color: #ffd200; */
   /* font-size: large; */
   margin-bottom: 0 !important;
-  background: linear-gradient(to right, #ffd200, #06e07f, #e3073c, #1f84ef);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right, #ffd200, #06e07f, #e3073c, #1f84ef); */
+
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   text-transform: capitalize;
   font-size: 35px;
   font-weight: 700;
-  font-family: Lato, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
   -webkit-tap-highlight-color: transparent;
+}
+
+.title:hover {
+  color: gray;
 }
 
 .welcomeBack {
@@ -106,7 +139,7 @@ code {
   margin-top: 18px;
   font-size: 28px;
   line-height: 32px;
-  font-family: Lato, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
   -webkit-tap-highlight-color: transparent;
@@ -158,6 +191,7 @@ code {
   background-color: rgb(0, 21, 41) !important;
   color: white;
 }
+
 .locationState span:first-child,
 .locationState div {
   background-color: rgb(0, 21, 41) !important;
@@ -182,6 +216,7 @@ code {
 .mainSearchButton:hover {
   transform: scale(1.1);
 }
+
 .CustomCARD {
   height: 185px !important;
   width: 100% !important;

@@ -153,10 +153,10 @@ function Index({ children }) {
                   <Option value='all'>Category (All)</Option>
                   {data.categories.length > 0
                     ? data.categories.map((category) => (
-                        <Option key={category.id} value={category.id}>
-                          {category.name}
-                        </Option>
-                      ))
+                      <Option key={category.id} value={category.id}>
+                        {category.name}
+                      </Option>
+                    ))
                     : null}
                 </Select>
                 <Select
@@ -171,10 +171,10 @@ function Index({ children }) {
                   <Option value='all'>State (All)</Option>
                   {data.states.length > 0
                     ? data.states.map((state) => (
-                        <Option key={state.id} value={state.id}>
-                          {state.state}
-                        </Option>
-                      ))
+                      <Option key={state.id} value={state.id}>
+                        {state.state}
+                      </Option>
+                    ))
                     : null}
                 </Select>
                 <Input
@@ -233,7 +233,7 @@ function Index({ children }) {
 
             <SubMenu
               key='100'
-              title={<Avatar size='large' src='../images/team_01.jpg' />}
+              title={<Avatar size='large' src='https://2.bp.blogspot.com/-XCUBdVqOxLg/UCfGQBfQ-HI/AAAAAAAAAt0/XnDpDrk55vE/s1600/facebook+default+picture.PNG' />}
             >
               <Menu.Item key='101' icon={<ProfileOutlined />}>
                 <Link to='/home-services/profile'>Profile</Link>
@@ -257,7 +257,7 @@ function Index({ children }) {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Bhavya Design ©{new Date().getFullYear()} Created by bhavyabhut
+          IIITL ©{new Date().getFullYear()} Created by Students
         </Footer>
       </Layout>
     </Layout>

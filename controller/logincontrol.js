@@ -2,6 +2,7 @@ const User = require('../schemas/UserModel');
 const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
 const jwt = require('jsonwebtoken');
+process.env.SECREATE = 'development';
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',

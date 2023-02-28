@@ -111,18 +111,18 @@ function SignIn(props) {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>HandyMan</h1>
         </div>
-        <h2 className='welcomeBack'>Welcome back</h2>
-        <p className='loginIntoAccount'>Please log into your account</p>
+        <h2 className='welcomeBack'>Welcome to HandyMan</h2>
+        <p className='loginIntoAccount'>Enter The world of Digital Home Service</p>
         <div>
           <Form form={form} layout='vertical'>
             <Form.Item label='Email' name='email'>
-              <Input placeholder='johndoe@gmail.com' />
+              <Input placeholder='@iiitl.ac.in' />
             </Form.Item>
             <Form.Item name='password' label='Password'>
               <Input.Password
-                placeholder='password'
+                placeholder='Password'
                 iconRender={(visible) =>
                   visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />
                 }
@@ -158,7 +158,7 @@ function SignIn(props) {
                 style={{
                   width: '100%',
                   height: '2.5rem',
-                  backgroundColor: 'rgb(0, 132, 137)',
+                  backgroundColor: 'rgb(83 188 66)',
                   borderColor: 'rgb(0, 132, 137)',
                 }}
                 loading={state.loader}
@@ -168,10 +168,10 @@ function SignIn(props) {
               </Button>
             </Form.Item>
           </Form>
-          <Divider>Or login with</Divider>
+          <Divider> </Divider>
           <div
             style={{
-              display: 'grid',
+              display: 'none',
               gridTemplateColumns: '1fr 1fr',
               columnGap: '1rem',
               rowGap: '1rem',
@@ -206,7 +206,7 @@ function SignIn(props) {
           </p>
         </div>
       </div>
-      <div className='signin-image-div' />
+      {/* <div className='signin-image-div' /> */}
     </div>
   );
 }

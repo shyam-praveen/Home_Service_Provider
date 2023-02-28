@@ -55,16 +55,16 @@ function SignIn() {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>HandyMan</h1>
         </div>
-        <h2 className='welcomeBack'>Welcome back</h2>
+        <h2 className='welcomeBack'>Welcome to HandyMan</h2>
         <p className='loginIntoAccount'>
           Enter your email to recover your account
         </p>
         <div>
           <Form form={form} layout='vertical'>
             <Form.Item label='Email' name='email'>
-              <Input placeholder='johndoe@gmail.com' />
+              <Input placeholder='@iiitl.ac.in' />
             </Form.Item>
 
             <Form.Item style={{ width: '100%' }}>
@@ -87,7 +87,7 @@ function SignIn() {
           </Form>
         </div>
       </div>
-      <div className='signin-image-div' />
+      {/* <div className='signin-image-div' /> */}
     </div>
   );
 }

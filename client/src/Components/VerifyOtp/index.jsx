@@ -61,9 +61,9 @@ function SignIn() {
             right: '1rem',
           }}
         >
-          <Logo /> <h1 className='title'>HomeServices</h1>
+          <Logo /> <h1 className='title'>HandyMan</h1>
         </div>
-        <h2 className='welcomeBack'>Welcome back</h2>
+        <h2 className='welcomeBack'>Welcome to HandyMan</h2>
         <p className='loginIntoAccount'>
           Enter your otp to change your password
         </p>
@@ -73,7 +73,7 @@ function SignIn() {
               label='One Time Password'
               //   required
               name='otp'
-              //   tooltip="This is a required field"
+            //   tooltip="This is a required field"
             >
               <Input placeholder='Enter one time password' />
             </Form.Item>
